@@ -58,6 +58,7 @@
             this.btnExe.TabIndex = 1;
             this.btnExe.Text = "알아서 변환";
             this.btnExe.UseVisualStyleBackColor = true;
+            this.btnExe.Click += new System.EventHandler(this.btnExe_Click);
             // 
             // label1
             // 
@@ -139,6 +140,7 @@
             this.btnShort.TabIndex = 10;
             this.btnShort.Text = "Short 변환";
             this.btnShort.UseVisualStyleBackColor = true;
+            this.btnShort.Click += new System.EventHandler(this.btnShort_Click);
             // 
             // btnInt
             // 
@@ -148,6 +150,7 @@
             this.btnInt.TabIndex = 11;
             this.btnInt.Text = "Int 변환";
             this.btnInt.UseVisualStyleBackColor = true;
+            this.btnInt.Click += new System.EventHandler(this.btnInt_Click);
             // 
             // btnDouble
             // 
@@ -157,12 +160,13 @@
             this.btnDouble.TabIndex = 12;
             this.btnDouble.Text = "Double 변환";
             this.btnDouble.UseVisualStyleBackColor = true;
+            this.btnDouble.Click += new System.EventHandler(this.btnDouble_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(795, 450);
             this.Controls.Add(this.btnDouble);
             this.Controls.Add(this.btnInt);
             this.Controls.Add(this.btnShort);
